@@ -5,7 +5,7 @@
     <artifactId>Calculadora</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>Calculadora-1.0-SNAPSHOT</name>
+    <name>AG17057-1.0-SNAPSHOT</name>
     
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
