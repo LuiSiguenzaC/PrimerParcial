@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <title>Start Page</title>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+<div class="row pt-5">
+		<div class="col-md-6">
+			<div class="card card-success card-info">	
+				<div class="card-header">
+					<h5>Ingrese su nombre y dos digitos</h5>
+				</div>	
+				<div class="card-body">
+					
+					<form action="Index" method="post">
+						<div class="row">
+							<div class="col-md-12">
+								<label for="Nombre">Nombres:</label>
+								<input type="text" name="Nombre" class="textarea form-control" placeholder="Ingrese su nombre">
+							</div>
+						</div>
+						<div class="row pt-3">
+							<div class="col-md-12">
+								<label for="Nombre">Numero uno:</label>
+								<input type="number" name="digito_1" class="textarea form-control" placeholder="Ingrese el primer digito">
+							</div>
+						</div>
+						<div class="row pt-3">
+							<div class="col-md-12">
+								<label for="Nombre">Numero dos:</label>
+								<input type="number" name="digito_2" class="textarea form-control" placeholder="Ingrese el segundo digito">
+							</div>
+						</div>
+						<div class="row pt-3">
+							<div class="col-md-12">
+								<label for="Nombre">Operacion Aritmetica:</label>
+								<input type="number" name="digito_3" id="numero3" min="1" max="4" class="form-control" placeholder="Operacion atirmetica, 1 es suma, 2 es resta, 3 es multiplicacion, 4 es division">
+							</div>
+						</div>
+						<div class="row pt-3 text-right">
+							<div class="col-md-12">						
+								<input type="submit" name="enviar" id="enviar" value="Enviar" class="btn btn-primary form-check">
+							</div>
+						</div>
+					</form>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
