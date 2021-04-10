@@ -9,7 +9,7 @@
     <body>
         <h1>Bienvenido <%out.println(session.getAttribute("nombre"));%></h1><br>
         <p>El resultado de la  <%out.println(session.getAttribute("operacion"));%>  es:<%out.println(session.getAttribute("respuesta"));%> </p>
-         <p>Los numeros primos comprendidos:<%out.println(session.getAttribute("salida"));%> </p>
+         <p>Los numeros primos comprendidos:<%out.println(session.getAttribute("primos"));%> </p>
         
     </body>
 </html>

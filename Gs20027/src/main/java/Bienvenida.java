@@ -129,12 +129,11 @@ if (numeroUno<numeroDos){//segundo numero es mayor
 if(numeroUno<0 && numeroDos<0){
 salida="Los numeros primos son mayores a 1";
 }
-sesion.setAttribute("salida", salida);
+sesion.setAttribute("primos",salida);
 sesion.setAttribute("respuesta",respuesta);
 sesion.setAttribute("operacion",operacion);
 sesion.setAttribute("nombre",nombre);
 response.sendRedirect("SesionOpen.jsp");
-
 
 
  
