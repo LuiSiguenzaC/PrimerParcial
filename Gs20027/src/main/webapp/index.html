@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>aguita</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <form name="Aplicacion" action="Bienvenida" method="POST"> 
+
+            <fieldset><legend>Ingrese los datos</legend>
+                <label>Digite su nombre</label><br>
+                    <input type="text"  name="nombreUsuario" id="nombreUsuario"><br>
+                    <label>Digite el primer  numero</label><br>
+                    <input  type="number"  name="numeroUno" id="numeroUno"><br>
+                    <label>Digite el segundo numero</label><br>
+                    <input  type="number"  name="numeroDos" id="numeroDos"><br>
+                    <label>Seleccione la operacion que desea</label><br>
+                    <select name="operaciones" id="operaciones">
+                        <option value="Suma">Suma</option>
+                        <option value="Resta">Resta</option>
+                        <option value="Multipliacion">Multiplicacion</option>
+                        <option value="Division">Division</option>
+                    </select><br>
+                <input   type="submit"  value="Enviar">
+            </fieldset>
+        </form>
+
+    </body>
+</html>
