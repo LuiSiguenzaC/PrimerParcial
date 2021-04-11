@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>BIENVENIDO!</h1>
+    </body>
+</html>
+<form name="login" action="rv20050" method="POST">
+            <fieldset>
+                <legend>Datos</legend>   
+                Ingrese el nombre de usuario: 
+                <input type="text" name="user" id="user">
+                <br>
+                Ingrese el primer numero: 
+                <input type="number" name="numero1" id="numero1">
+                <br>
+                Ingrese el segundo numero: 
+                <input type="number" name="numero2" id="numero2">
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Selecciona la operacion:</legend>   
+                <select name="operacion">
+                    <option selected="selected" value="none">Seleccione...
+                    <option type="number" value="1">Suma
+                    <option type="number" value="2">Resta
+                    <option type="number" value="3">Multiplicacion
+                    <option type="number" value="4">Division
+                </select>
+                </fieldset>
+                <input type="submit" name="login" id="login" value="Login">
+        </form>
