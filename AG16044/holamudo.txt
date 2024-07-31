@@ -1,0 +1,5 @@
+comandos de Docker 
+docker ps
+docker ps -a
+docker run [opciones] imagen [comando]
+docker build -t nombre_de_la_imagen:etiqueta .
